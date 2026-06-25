@@ -29,3 +29,12 @@ class KelasReguler extends PendaftaranKursus
 
         return $stmt;
     }
+    public function hitungTotalBiaya()
+{
+    return $this->biayaDasar;
+}
+
+public function tampilkanInfoKelas()
+{
+    return "Kelas Reguler";
+}

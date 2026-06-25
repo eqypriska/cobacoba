@@ -29,3 +29,12 @@ class KelasPrestasi extends PendaftaranKursus
 
         return $stmt;
     }
+    public function hitungTotalBiaya()
+{
+    return $this->biayaDasar - 75000;
+}
+
+public function tampilkanInfoKelas()
+{
+    return "Kelas Prestasi";
+}

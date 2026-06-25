@@ -29,3 +29,12 @@ class KelasBeasiswa extends PendaftaranKursus
 
         return $stmt;
     }
+    public function hitungTotalBiaya()
+{
+    return $this->biayaDasar * 0.5;
+}
+
+public function tampilkanInfoKelas()
+{
+    return "Kelas Beasiswa";
+}
